@@ -1,0 +1,30 @@
+{
+  "doctype": "Workspace",
+  "name": "Transaction Deletion",
+  "title": "Transaction Deletion",
+  "label": "Transaction Deletion",
+  "module": "Transaction Tools",
+  "public": 1,
+  "is_standard": 1,
+  "is_hidden": 0,
+  "extends_page": "",
+  "parent_page": "Administration",
+  "hide_custom": 0,
+  "color": "#6195ff",
+  "shortcuts": [
+    {
+      "type": "DocType",
+      "label": "Transaction Deletion Record",
+      "link_to": "Transaction Deletion Record",
+      "icon": "delete",
+      "columns": 0
+    }
+  ],
+  "charts": [],
+  "quick_lists": [],
+  "number_cards": [],
+  "links": [],
+  "roles": [],
+  "sequence_id": 101.0,
+  "content": "[{\"id\":\"header-1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Tools</span>\",\"col\":12}},{\"id\":\"shortcut-1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Transaction Deletion Record\",\"col\":4}}]"
+}

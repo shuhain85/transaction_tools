@@ -8,7 +8,15 @@ app_license = "mit"
 
 # Includes in <head>
 # ------------------
-fixtures = ["Workspace"]
+fixtures = [
+    "Custom Field",
+    "Property Setter"
+]
+
+workspace_json = [
+    "transaction_tools.workspace"
+]
+
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/transaction_tools/css/transaction_tools.css"

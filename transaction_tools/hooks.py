@@ -8,14 +8,18 @@ app_license = "mit"
 
 # Includes in <head>
 # ------------------
+
+app_include_config = "transaction_tools.config.desktop"
+
 fixtures = [
-    "Custom Field",
-    "Property Setter"
+    {
+        "doctype": "Workspace",
+        "filters": [["name", "in", ["Transaction Deletion"]]]
+    }
 ]
 
-workspace_json = [
-    "transaction_tools.workspace"
-]
+# apps/transaction_tools/transaction_tools/hooks.py
+after_install = "transaction_tools.install.after_install"
 
 
 # include js, css files in header of desk.html

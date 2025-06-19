@@ -1,15 +1,13 @@
 # Transaction Tools
 
 
-## 📸 Screenshots (Scroll to view)
+<h3>📸 Screenshots (Scroll to view)</h3>
 
-<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
-
-  <img src="images/workspace.JPG" height="200" alt="Workspace">
-  <img src="images/report.JPG" height="200" alt="Report">
-  <img src="images/Queued.JPG" height="200" alt="Queued">
-  <img src="images/completed.JPG" height="200" alt="Completed">
-
+<div style="display: flex; overflow-x: auto; gap: 16px; padding: 8px 0;">
+  <img src="images/workspace.JPG" alt="Workspace" width="300">
+  <img src="images/Queued.JPG" alt="Queued" width="300">
+  <img src="images/completed.JPG" alt="Completed" width="300">
+  <img src="images/report.JPG" alt="Report" width="300">
 </div>
 
 Tools for deleting all transactions for a company in **Dokos v4**.

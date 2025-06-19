@@ -1,0 +1,32 @@
+{
+ "doctype": "DocType",
+ "name": "Transaction Deletion Record Details",
+ "module": "Transaction Tools",
+ "istable": 1,
+ "fields": [
+  {
+   "fieldname": "reference_doctype",
+   "label": "Reference DocType",
+   "fieldtype": "Data",
+   "reqd": 1
+  },
+  {
+   "fieldname": "reference_name",
+   "label": "Reference Name",
+   "fieldtype": "Data",
+   "reqd": 1
+  },
+  {
+   "fieldname": "done",
+   "label": "Processed",
+   "fieldtype": "Check"
+  },
+    {
+  "fieldname": "no_of_docs",
+  "fieldtype": "Int",
+  "label": "No. of Docs",
+  "default": "0",
+  "read_only": 1
+   }
+ ]
+}

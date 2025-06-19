@@ -1,0 +1,40 @@
+{
+  "doctype": "DocType",
+  "name": "Transaction Deletion Record Item",
+  "module": "Transaction Tools",
+  "istable": 1,
+  "editable_grid": 1,
+  "track_changes": 1,
+  "index_web_pages_for_search": 1,
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "actions": [],
+  "field_order": [
+    "doctype_name",
+    "docfield_name"
+  ],
+  "fields": [
+    {
+      "fieldname": "doctype_name",
+      "label": "DocType",
+      "fieldtype": "Link",
+      "options": "DocType",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "docfield_name",
+      "label": "Company Link Field",
+      "fieldtype": "Data",
+      "in_list_view": 1
+    }
+  ],
+  "permissions": [],
+  "links": [],
+  "states": [],
+  "creation": "2021-04-07 07:34:00.124124",
+  "modified": "2024-02-04 10:56:27.413691",
+  "owner": "Administrator",
+  "modified_by": "Administrator",
+  "engine": "InnoDB"
+}

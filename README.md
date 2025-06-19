@@ -1,21 +1,16 @@
 # Transaction Tools
 
 
-## Workspace Preview
+## 📸 Screenshots (Scroll to view)
 
-![Workspace](images/workspace.JPG)
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
 
-## Report View before
+  <img src="images/workspace.JPG" height="200" alt="Workspace">
+  <img src="images/report.JPG" height="200" alt="Report">
+  <img src="images/Queued.JPG" height="200" alt="Queued">
+  <img src="images/completed.JPG" height="200" alt="Completed">
 
-![Report](images/report.JPG)
-
-## Queue Status
-
-![Queued](images/Queued.JPG)
-
-## Completed Tasks
-
-![Completed](images/completed.JPG)
+</div>
 
 Tools for deleting all transactions for a company in **Dokos v4**.
 
